@@ -1,17 +1,18 @@
 import React from "react";
+import '../css/main.css'
 
 function Header() {
 
     return(
-        <div className="header-section">
-            <div className="menu-btn">
+        <div className="header-section header-size flex">
+            <div className="menu-btn flex flex-1 left">
                 H
             </div>
-            <div className="logo">
+            <div className="logo flex flex-1 center">
                 <h3>Glömd värld</h3>
             </div>
-            <div className="social-icons">
-                <ul>
+            <div className="social-icons flex flex-1 right">
+                <ul className="flex center">
                     <li>F</li>
                     <li>I</li>
                     <li>M</li>

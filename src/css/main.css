@@ -1,0 +1,34 @@
+:root {
+    --header-padding: 5rem;
+}
+
+.header-size {
+    height: var(--header-padding);
+}
+
+.content-padding-top {
+    padding-top: var(--header-padding);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.center {
+    align-items: center;    
+    justify-content: center;
+}
+
+.left {
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.right {
+    align-items: center;
+    justify-content: flex-end;
+}
