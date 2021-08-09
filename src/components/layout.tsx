@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./footer";
 import Header from "./header";
+import Content from "./content";
 import '../css/main.css'
 
 function Layout() {
@@ -8,9 +9,7 @@ function Layout() {
     return (
         <>
             <Header />
-            <div className="content">
-                <h1>Layout?</h1>
-            </div>
+            <Content />
             <Footer />
         </>
     );
