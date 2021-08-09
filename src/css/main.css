@@ -18,6 +18,10 @@
     flex: 1;
 }
 
+.column {
+    flex-direction: column;
+}
+
 .center {
     align-items: center;    
     justify-content: center;

@@ -4,18 +4,13 @@ import '../css/main.css'
 function Header() {
 
     return(
-        <div className="header-section header-size flex">
-            <div className="menu-btn flex flex-1 left">
-                logga
-            </div>
+        <div className="header-section header-size flex column">            
             <div className="logo flex flex-1 center">
-                <h3>Glömd värld</h3>
+                <h2><a href="/">Some forms</a></h2>
             </div>
-            <div className="social-icons flex flex-1 right">
+            <div className="forms flex center">
                 <ul className="flex center">
-                    <li>F</li>
-                    <li>I</li>
-                    <li>M</li>
+                    <li><a href="/username">Username</a></li>
                 </ul>
             </div>
         </div>
