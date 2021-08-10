@@ -1,0 +1,14 @@
+.navMobile {
+    display: none
+}
+
+@media (max-width: 45em) {
+    .navMobile {
+        display: flex;
+
+    }
+
+    .navDesktop {
+        display:none;
+    }
+}

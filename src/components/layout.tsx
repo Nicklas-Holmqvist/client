@@ -1,5 +1,5 @@
 import React from "react";
-import Footer from "./footer";
+// import Footer from "./footer";
 import Header from "./header";
 import Username from "./username";
 import Practice from "./practice";
@@ -16,7 +16,7 @@ function Layout() {
                         <Route exact path="/" component={Practice} />
                         <Route path="/username" component={Username} />
                     </Switch>
-                <Footer />
+                {/* <Footer /> */}
             </BrowserRouter>
         </>
     );

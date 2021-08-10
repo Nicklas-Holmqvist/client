@@ -5,16 +5,13 @@ import '../css/username.css'
 function Content() {
 
     const [name, setName] = useState('')
-    const [myName, setMyName] = useState('')
 
     const confirm = () => {
-        setMyName(name)
-        alert("Hej " + name + "!")
+        alert("Hej! Välkommen hit " + name + "!")
     }
 
     return (
         <div className="content-section flex center column">
-            <h2>Hej</h2>
             <p>Vad heter du?</p>
             <input 
                 type="text" 
@@ -22,10 +19,8 @@ function Content() {
                 onChange={(e) => setName(e.target.value)}
             />
             <button onClick={confirm}>
-                Bekräfta</button>
-            <div className="body-section">
-            {myName}
-            </div>
+                Bekräfta
+            </button>
         </div>
         
     )

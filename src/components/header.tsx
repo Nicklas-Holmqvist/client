@@ -1,5 +1,8 @@
 import React from "react";
 import '../css/main.css'
+import Navigation from "./nav/navigation";
+import MobileNavigation from "./nav/mobileNavigation";
+
 
 function Header() {
 
@@ -8,10 +11,9 @@ function Header() {
             <div className="logo flex flex-1 center">
                 <h2><a href="/">Some forms</a></h2>
             </div>
-            <div className="forms flex center">
-                <ul className="flex center">
-                    <li><a href="/username">Username</a></li>
-                </ul>
+            <div className="navigation-container">
+                <Navigation />
+                <MobileNavigation />
             </div>
         </div>
     )
